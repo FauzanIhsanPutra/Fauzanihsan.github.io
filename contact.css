@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 30px 20px;
+}
+
+li:hover {
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li a:hover {
+    color: black;
+}
+
+header{
+    width: auto;
+    height: 75px;
+    background-color: bisque;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+ font-size: 40px;
+ font-weight: bold;
+ padding: 10px 0;
+ float: left;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: white;
+    padding: 100px 0;
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 13px;
+    color: black;
+    font-size: x-large;
+}
+
+.Discord {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    color: black;
+}
+
+.Discord:hover{
+    font-style: inherit;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.Youtube {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.Youtube:hover{
+    font-style: inherit;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.Steam {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.Steam:hover{
+    font-style: inherit;
+    color: darkblue;
+    text-decoration-color: red;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(Sunset\ pixel\ art.png);
+    background-size: cover;
+}

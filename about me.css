@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 30px 20px;
+}
+
+li:hover {
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li a:hover {
+    color: black;
+}
+
+header{
+    width: auto;
+    height: 75px;
+    background-color: bisque;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+ font-size: 40px;
+ font-weight: bold;
+ padding: 10px 0;
+ float: left;
+}
+
+body {
+    background-image: url(974795.jpg);
+    background-size: cover;
+}
+
+.card-box {
+    width: 50px;
+    height: 75px;
+    border-radius: 35%;
+    box-shadow: grey;
+}
